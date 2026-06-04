@@ -1,16 +1,30 @@
 # 🤖 AI Resume & Job Match Analyzer
 
-An AI-powered application that analyzes resumes against job descriptions and provides a match score, keyword analysis, and improvement recommendations.
+AI-powered Resume and Job Description Matching Tool built with Python and Gradio.
+
+This application analyzes resumes against job descriptions, calculates a match score, identifies relevant keywords, and provides recommendations to improve resume-job alignment.
+
+---
 
 ## 🚀 Features
 
-- Resume vs Job Description Matching
-- ATS-style Match Score
-- Keyword Detection
-- Technical Fit Analysis
-- Recommendations for Improvement
-- Modern Gradio UI
-- Local Processing (No Data Storage)
+✅ Resume vs Job Description Matching
+
+✅ ATS-Style Match Score
+
+✅ Keyword Detection & Analysis
+
+✅ Technical Fit Assessment
+
+✅ Improvement Recommendations
+
+✅ Modern Interactive Gradio UI
+
+✅ Real-Time Analysis
+
+✅ Local Processing (No Data Storage)
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -18,43 +32,71 @@ An AI-powered application that analyzes resumes against job descriptions and pro
 - Gradio
 - HTML/CSS
 - Text Processing
+- Keyword-Based Resume Analysis
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-![App Screenshot](screenshots/app-ui.png)
+### Home Page
+
+![Home Page](screenshots/home-page.png.png)
+
+### Analysis Result
+
+![Analysis Result](screenshots/analysis-result.png.png)
 
 ---
 
 ## 🎯 How It Works
 
-1. Paste your resume.
-2. Paste the job description.
+1. Paste your resume into the Resume section.
+2. Paste the job description into the Job Description section.
 3. Click **Analyze Match**.
 4. Receive:
    - Match Score
-   - Keyword Analysis
    - Technical Fit Assessment
+   - Keyword Analysis
    - Recommendations
+   - ATS Alignment Insights
 
 ---
 
-## 🏃 Run Locally
+## 📊 Example Analysis
 
-Clone the repository:
+The application evaluates:
+
+- Technical skill alignment
+- Resume keyword coverage
+- Missing requirements
+- ATS compatibility
+- Overall job fit
+
+and generates actionable recommendations to improve the resume.
+
+---
+
+## 🏃 Installation
+
+### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Resume-Job-Match-Analyzer.git
+git clone https://github.com/FatimaArif30/AI-Resume-Job-Match-Analyzer.git
 ```
 
-Install dependencies:
+### Navigate to the Project Folder
+
+```bash
+cd AI-Resume-Job-Match-Analyzer
+```
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run:
+### Run the Application
 
 ```bash
 python app.py
@@ -62,17 +104,14 @@ python app.py
 
 ---
 
-## 👩‍💻 Author
+## 💡 Use Cases
 
-Fatima Arif
-
-AI/ML Enthusiast | LLM & AI Integration | Python Developer
-
-GitHub:
-https://github.com/FatimaArif30
-
-LinkedIn:
-(Add your LinkedIn URL)
+- Internship Applications
+- AI/ML Resume Screening
+- ATS Optimization
+- Career Preparation
+- Resume Improvement
+- Job Application Analysis
 
 ---
 
@@ -80,6 +119,36 @@ LinkedIn:
 
 - PDF Resume Upload
 - Gemini AI Integration
-- Semantic Skill Matching
-- Resume Improvement Suggestions
+- Semantic Resume Matching
+- Resume Optimization Suggestions
+- ATS Improvement Recommendations
 - Recruiter Dashboard
+- Multi-Job Comparison
+
+---
+
+## 👩‍💻 Author
+
+### Fatima Arif
+
+AI/ML Enthusiast | LLM & AI Integration | Python Developer
+
+🔗 LinkedIn:
+
+www.linkedin.com/in/fatima-arif-a09a61317
+
+🔗 GitHub:
+
+https://github.com/FatimaArif30
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
+
+Feedback and contributions are always welcome.
+
+---
+
+### Built with ❤️ using Python & Gradio
